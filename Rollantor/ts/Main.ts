@@ -21,6 +21,7 @@ namespace Rollantor {
     ///   IMAGES   \\\
     let bgImg: HTMLImageElement = new Image();
     bgImg.src = "./img/Grund.jpg";
+    console.log("Bild wird eingefügt?");
     let signImg: HTMLImageElement = new Image();
     signImg.src = "./img/Schilder.png";
     let shrubsImg: HTMLImageElement = new Image();
