@@ -21,13 +21,12 @@ namespace Rollantor {
     ///   IMAGES   \\\
     let bgImg: HTMLImageElement = new Image();
     bgImg.src = "./img/Grund.jpg";
-    console.log("Bild wird eingefügt?");
     let signImg: HTMLImageElement = new Image();
     signImg.src = "./img/Schilder.png";
     let shrubsImg: HTMLImageElement = new Image();
     shrubsImg.src = "./img/Pflanzen.png";
     let dementorImg: HTMLImageElement = new Image();
-    dementorImg.src = "./img/Alter_Mann.png"
+    dementorImg.src = "./img/Alter_Mann.png";
 
     function setup(): void {
         defineValues();
@@ -50,6 +49,7 @@ namespace Rollantor {
     }
 
     function renderWorld(): void {
+        console.log("Bild wird eingefügt?");
         if (dementor.getPos().y > 900) {
             crc2.drawImage(signImg, 0, 0);
             dementor.draw();
