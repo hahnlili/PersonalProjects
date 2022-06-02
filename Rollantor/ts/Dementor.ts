@@ -1,4 +1,4 @@
-namespace Rollantor {
+namespace Rollantor { //Dementor steht für Demenzkranke Person
     export class Dementor {
         private crc2: CanvasRenderingContext2D;
         private internalWidth: number = 3508;
