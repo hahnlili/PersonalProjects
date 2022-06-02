@@ -49,7 +49,6 @@ namespace Rollantor {
     }
 
     function renderWorld(): void {
-        console.log("Bild wird eingefügt?");
         if (dementor.getPos().y > 900) {
             crc2.drawImage(signImg, 0, 0);
             dementor.draw();
@@ -83,6 +82,7 @@ namespace Rollantor {
                 break;
             case "KeyE":
                 eIsPressed = true;
+                console.log("hier wurde etwas gedrückt, das es  gibt.");
                 break;
             default:
                 console.log("hier wurde etwas gedrückt, das es nicht gibt.");
